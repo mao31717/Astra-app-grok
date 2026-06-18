@@ -116,7 +116,9 @@ const GROK_MODELS = [
   { id: 'grok-3-fast',     name: 'Grok 3 Fast',     desc: '低延遲旗艦版' },
   { id: 'grok-3-mini-fast',name: 'Grok 3 Mini Fast',desc: '最省費，最快回應' },
   { id: 'grok-2-1212',     name: 'Grok 2',          desc: '上一代穩定版' },
-];\n\nconst MODELS = {
+];
+
+const MODELS = {
   openai: [
     { id: 'gpt-5.5',      name: 'GPT-5.5',       desc: '最新旗艦，最強（$5/$30/MTok，1M context）' },
     { id: 'gpt-5.4',      name: 'GPT-5.4',        desc: '平衡性能（$2.50/$15/MTok，1M context）' },
